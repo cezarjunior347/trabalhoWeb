@@ -1,0 +1,54 @@
+form {
+  background-color: var(--fundo-card);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  max-width: 600px;
+  width: 30vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+form h1 {
+  color: var(--cor-primaria);
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  padding: 0.9rem;
+  border: 1px solid var(--borda-clara);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--cor-primaria);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+button {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}

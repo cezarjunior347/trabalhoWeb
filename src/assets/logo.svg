@@ -1,0 +1,10 @@
+<svg width="180" height="50" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text1 { font: bold 30px 'Segoe UI', sans-serif; fill: #00d4ff; }
+    .text2 { font: bold 30px 'Segoe UI', sans-serif; fill: #ffffff; }
+    .bg { fill: #1b1f3b; }
+  </style>
+  <rect width="100%" height="100%" rx="12" class="bg"></rect>
+  <text x="15" y="55" class="text1">Tech</text>
+  <text x="95" y="55" class="text2">Nova</text>
+</svg>
